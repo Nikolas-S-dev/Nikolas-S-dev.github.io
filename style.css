@@ -8,7 +8,7 @@
 
 nav {
   height: 80px;
-  background: #b30505;
+  background: #28cf07;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,7 +16,7 @@ nav {
 }
 
 .logo {
-  color: #000;
+  color: #b30505;
   font-size: 1.5rem;
   font-weight: bold;
   font-style: italic;
@@ -30,7 +30,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #fff;
+  color: #b30505;
 }
 
 .hero {
@@ -76,7 +76,7 @@ button {
 
 button:hover {
   background: #fff;
-  color: #000;
+  color: #b30505;
 }
 
 .column-right {
