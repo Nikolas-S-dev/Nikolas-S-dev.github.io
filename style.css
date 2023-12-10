@@ -8,7 +8,7 @@
 
 nav {
   height: 80px;
-  background: #28cf07;
+  background: #1c9703;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,7 +69,7 @@ button {
   font-size: 1rem;
   border: none;
   color: #000;
-  background: #28cf07;
+  background: #1c9703;
   cursor: pointer;
   border-radius: 50px;
 }
@@ -96,3 +96,24 @@ button:hover {
     grid-template-columns: 1fr;
   }
 }
+
+.snow_wrap{
+  height: 100vh;
+  width: 100%;
+}
+ .snow,.snow::after,.snow::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: radial-gradient(4px 4px at 100px 50px, #fff, transparent);
+  background-image: radial-gradient(3px 3px at 300px 50px, #fff, transparent);
+  background-image: radial-gradient(4px 4px at 400px 50px, #fff, transparent);
+  background-image: radial-gradient(6px 6px at 500px 50px, #fff, transparent);
+  background-image: radial-gradient(3px 3px at 600px 50px, #fff, transparent);
+  background-image: radial-gradient(4px 4px at 700px 50px, #fff, transparent);
+  background-image: radial-gradient(6px 6px at 800px 50px, #fff, transparent);
+  background-image: radial-gradient(4px 4px at 900px 50px, #fff, transparent);
+  background-image: radial-gradient(4px 4px at 100px 50px, #fff, transparent);
+ }
