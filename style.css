@@ -50,7 +50,7 @@ nav a:hover {
   justify-content: center;
   align-items: flex-start;
   color: #000;
-  padding: 0rem 2rem;
+  padding: 0rem 7rem;
 }
 
 .column-left h1 {
@@ -109,7 +109,7 @@ h2{
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-20px);
   }
   100% {
     transform: translateY(0);
@@ -117,6 +117,82 @@ h2{
 }
 
 .floating-image img {
-  animation: floatAnimation 3s ease-in-out infinite;
+  animation: floatAnimation 2.5s ease-in-out infinite;
 }
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Adjust spacing between buttons */
+}
+
+.social-button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.facebook {
+  background-color: #3b5998; /* Facebook color */
+}
+
+.twitter {
+  background-color: #1da1f2; /* Twitter color */
+}
+
+.instagram {
+  background-color: #e4405f; /* Instagram color */
+}
+.Roadmap {
+  padding: 30px;
+  text-align: justify;
+}
+
+/* Styling the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Styling the copyright text */
+.copyright p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* Adding some hover effect to the copyright text */
+.copyright p:hover {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+/* Hiding the image initially */
+img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  opacity: 1;
+}
+
+#fadeIn {
+  opacity: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+/* Add styles for the active link */
+.active {
+  color: #b30505; /* Change color to highlight the active link */
+  font-weight: bold; /* Optionally, emphasize the active link */
+  /* Add any other styles to make the active link stand out */
+}
+
+
+
+
 
