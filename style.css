@@ -25,7 +25,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   padding: 0 1.5rem;
 }
 
@@ -49,7 +49,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  color: #000;
+  color: #ffffff;
   padding: 0rem 7rem;
 }
 
@@ -68,7 +68,7 @@ button {
   padding: 1rem 3rem;
   font-size: 1rem;
   border: none;
-  color: #000;
+  color: #fff;
   background: #1c9703;
   cursor: pointer;
   border-radius: 50px;
@@ -191,31 +191,11 @@ html{
   font-weight: bold; /* Optionally, emphasize the active link */
   /* Add any other styles to make the active link stand out */
 }
-
-
-
-
-
-
-
-
-.snow_wrap{
-  height: 100vh;
-  width: 100%;
+.Nickolas {
+  color: #b30505; /* Change color to highlight the active link */
+  font-weight: bold; /* Optionally, emphasize the active link */
+  /* Add any other styles to make the active link stand out */
 }
- .snow,.snow::after,.snow::before{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: radial-gradient(4px 4px at 100px 50px, #fff, transparent);
-  background-image: radial-gradient(3px 3px at 300px 50px, #fff, transparent);
-  background-image: radial-gradient(4px 4px at 400px 50px, #fff, transparent);
-  background-image: radial-gradient(6px 6px at 500px 50px, #fff, transparent);
-  background-image: radial-gradient(3px 3px at 600px 50px, #fff, transparent);
-  background-image: radial-gradient(4px 4px at 700px 50px, #fff, transparent);
-  background-image: radial-gradient(6px 6px at 800px 50px, #fff, transparent);
-  background-image: radial-gradient(4px 4px at 900px 50px, #fff, transparent);
-  background-image: radial-gradient(4px 4px at 100px 50px, #fff, transparent);
- }
+.Roadmap, .Tokenomics{
+  color: #fff;
+}
